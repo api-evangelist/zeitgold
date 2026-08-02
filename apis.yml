@@ -1,7 +1,25 @@
 aid: zeitgold
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeitgold.png
 name: Zeitgold
-description: Zeitgold is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Zeitgold was a Berlin-based fintech that automated bookkeeping, invoice
+  and receipt processing, payments, and financial administration for small and medium-sized
+  businesses, blending software with human back-office review. It was backed by Battery
+  Ventures and other investors and was acquired by Deel in 2021. As of this enrichment
+  pass the company operates no independent public developer surface: zeitgold.com does
+  not respond on HTTP or HTTPS, and zeitgold.de resolves to a parked/reserved domain
+  page. No public API, developer portal, documentation, OpenAPI, or other machine-readable
+  artifact could be discovered, so this profile remains an identity-only record.'
 url: https://raw.githubusercontent.com/api-evangelist/zeitgold/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,28 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: 'Acquired by Deel (2021); no live public API surface. Probed 2026-07-21:
+  zeitgold.com no HTTP/HTTPS response, zeitgold.de parked domain, no api./app. host resolves.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Bookkeeping
+- Accounting
+- Financial Services
+- SMB
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
