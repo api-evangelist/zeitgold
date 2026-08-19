@@ -30,7 +30,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-detail: 'Acquired by Deel (2021); no live public API surface. Probed 2026-07-21:
   zeitgold.com no HTTP/HTTPS response, zeitgold.de parked domain, no api./app. host resolves.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
