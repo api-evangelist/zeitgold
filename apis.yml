@@ -42,7 +42,7 @@ x-status-detail: 'Acquired by Deel (2021); no live public API surface. Probed 20
   no HTTP/HTTPS response, zeitgold.de parked domain, no api./app. host resolves.'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Fintech
@@ -51,6 +51,7 @@ tags:
 - Financial-Services
 - SMB
 - Germany
+- Defunct
 tags_raw:
 - Company
 - Fintech
@@ -59,6 +60,7 @@ tags_raw:
 - Financial Services
 - SMB
 - Germany
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
