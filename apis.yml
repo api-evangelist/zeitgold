@@ -23,14 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeitgold.png
 name: Zeitgold
-description: 'Zeitgold was a Berlin-based fintech that automated bookkeeping, invoice
-  and receipt processing, payments, and financial administration for small and medium-sized
-  businesses, blending software with human back-office review. It was backed by Battery
-  Ventures and other investors and was acquired by Deel in 2021. As of this enrichment
-  pass the company operates no independent public developer surface: zeitgold.com does
-  not respond on HTTP or HTTPS, and zeitgold.de resolves to a parked/reserved domain
-  page. No public API, developer portal, documentation, OpenAPI, or other machine-readable
-  artifact could be discovered, so this profile remains an identity-only record.'
+description: 'Zeitgold was a Berlin-based fintech that automated bookkeeping, invoice and receipt processing,
+  payments, and financial administration for small and medium-sized businesses, blending software with
+  human back-office review. It was backed by Battery Ventures and other investors and was acquired by
+  Deel in 2021. As of this enrichment pass the company operates no independent public developer surface:
+  zeitgold.com does not respond on HTTP or HTTPS, and zeitgold.de resolves to a parked/reserved domain
+  page. No public API, developer portal, documentation, OpenAPI, or other machine-readable artifact could
+  be discovered, so this profile remains an identity-only record.'
 url: https://raw.githubusercontent.com/api-evangelist/zeitgold/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -39,11 +38,11 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
-x-status-detail: 'Acquired by Deel (2021); no live public API surface. Probed 2026-07-21:
-  zeitgold.com no HTTP/HTTPS response, zeitgold.de parked domain, no api./app. host resolves.'
+x-status-detail: 'Acquired by Deel (2021); no live public API surface. Probed 2026-07-21: zeitgold.com
+  no HTTP/HTTPS response, zeitgold.de parked domain, no api./app. host resolves.'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Fintech
@@ -52,6 +51,7 @@ tags:
 - Financial-Services
 - SMB
 - Germany
+- Defunct
 tags_raw:
 - Company
 - Fintech
@@ -76,4 +76,4 @@ common:
   url: https://apis.io/providers/deel-com/
   name: Deel
   x-relationship: acquired
-  x-evidence: "It was backed by Battery Ventures and other investors and was acquired by Deel in 2021."
+  x-evidence: It was backed by Battery Ventures and other investors and was acquired by Deel in 2021.
