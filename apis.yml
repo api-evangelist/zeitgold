@@ -48,8 +48,8 @@ tags:
 - Fintech
 - Bookkeeping
 - Accounting
-- Financial-Services
-- SMB
+- Financial Services
+- Small Business
 - Germany
 - Defunct
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - SMB
 - Germany
 - Defunct
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
